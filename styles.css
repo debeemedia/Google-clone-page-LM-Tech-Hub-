@@ -1,7 +1,74 @@
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: inherit;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+
+.main-body {
+    margin-top: 12%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.main-body img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid light-gray;
+
+}
+
+.app-img{
+    height: 20px;
+    width: 20px;
+}
+
+.account-circle-img {
+    height: 20px;
+    width: 20px;
+}
+
+.search-img {
+    height: 20px;
+    width: 20px;
+}
+
+.mic-img {
+    height: 20px;
+    width: 20px;
 }
