@@ -49,13 +49,47 @@ body {
 .search-input {
     display: flex;
     align-items: center;
-    border: 1px solid light-gray;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
 
+.search-input input {
+    flex: 1;
+    padding: 10 20;
+    border: none;
+    outline: none;
+}
+
+.search-input .search-img {
+    color: gray;
+    /* color not working */
+}
+
+.search-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .app-img{
     height: 20px;
     width: 20px;
+    margin-right: 20px;
 }
 
 .account-circle-img {
