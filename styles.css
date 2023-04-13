@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header a {
@@ -26,16 +27,19 @@ body {
     text-decoration: underline;
 }
 
-.header-right {
+.header-nav {
+    float: right;
     display: flex;
     align-items: center;
     min-width: 13vw;
     justify-content: space-between;
+    position: absolute;
+    right: 20px;
 }
 
 
 .main-body {
-    margin-top: 12%;
+    margin-top: 2%;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -43,7 +47,39 @@ body {
 
 .main-body img {
     object-fit: contain;
-    height: 100px;
+    height: 90px;
+}
+
+.app-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.app-img:hover {
+    box-shadow: 1px 1px 7px 1px darkgray;
+}
+
+.account-circle-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.account-circle-img:hover {
+    box-shadow: 1px 1px 7px 1px darkgray;
+}
+
+
+.search-img {
+    height: 20px;
+    width: 20px;
+}
+
+.mic-img {
+    height: 20px;
+    width: 20px;
 }
 
 .search-input {
@@ -57,6 +93,10 @@ body {
     margin: 0 auto;
     margin-top: 40px;
     max-width: 560px;
+}
+
+.search-input:hover {
+    box-shadow: 1px 1px 7px 1px lightgray;
 }
 
 .search-input input {
@@ -86,23 +126,28 @@ body {
     cursor: pointer;
 }
 
-.app-img{
-    height: 20px;
-    width: 20px;
-    margin-right: 20px;
+.search-buttons button:hover {
+    box-shadow: 0.5px 0.5px 1px 1px lightgray;
 }
 
-.account-circle-img {
-    height: 20px;
-    width: 20px;
+div.lang {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 0.9em;
 }
 
-.search-img {
-    height: 20px;
-    width: 20px;
+div.lang span {
+    margin-right: 8px;
 }
 
-.mic-img {
-    height: 20px;
-    width: 20px;
+div.lang a {
+    margin-right: 8px;
+}
+
+div.footer {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
