@@ -120,7 +120,7 @@ body {
 .search-buttons button {
     margin: 5px;
     padding: 10px 15px;
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
     outline: none;
     border: none;
     cursor: pointer;
@@ -146,8 +146,32 @@ div.lang a {
 }
 
 div.footer {
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 20vh;
+    color: #8c8591;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+div.footer div.line {
+    background-color: #8c8591;
+    height: 0.5px;
+    width: 100%;
+}
+
+div.footer span.Nigeria {
+    height: 30px;
+    margin-left: -1400px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+div.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
