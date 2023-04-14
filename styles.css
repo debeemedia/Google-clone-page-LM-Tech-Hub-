@@ -39,7 +39,7 @@ body {
 
 
 .main-body {
-    margin-top: 2%;
+    margin-top: 150px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -145,33 +145,46 @@ div.lang a {
     margin-right: 8px;
 }
 
-div.footer {
+div.footer-top {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 3vh;
     color: #8c8591;
     position: relative;
     border: none;
     outline: none;
+    padding: 20px;
+    position: relative;
+    font-weight: 800;
 }
 
-div.footer div.line {
+div.footer-top div.line {
     background-color: #8c8591;
     height: 0.5px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 40%;
 }
 
-div.footer span.Nigeria {
+div.footer-top span.Nigeria {
     height: 30px;
     margin-left: -1400px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+}
+
+div.footer-bottom span {
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 div.footer-bottom {
-    margin-top: 20px;
+    height: 3vh;
+    padding: 20px;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
+    color: #8c8591;
+    font-weight: 550;
 }
