@@ -13,6 +13,6 @@
 * Mr Johnson Promise (JP)
 * Mr Patrick
 
-## [VIEW CLONE](https://debeemedia.github.io/text-hyperlinks/](https://debeemedia.github.io/Google-clone-page-LM-Tech-Hub-/)
+## [VIEW CLONE](https://debeemedia.github.io/Google-clone-page-LM-Tech-Hub-/)
 
 ## This is a work of LM TechHub.
